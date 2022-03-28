@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- BOOTSTRAP 4 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans:wght@300;600;700;800&family=Open+Sans:wght@300&family=Poppins:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome 4 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.css" integrity="sha512-xdNgqS9I7CHbzFYjDiySh1lV5Sc4sobLLAvHLqtZY6ynlCiWpl+eGPds9CAMFFst5QgZRgd92qfeg03sl3UCjA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-options">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="header-logo">
+                <a href="index.html">
+                  <img src="images/header logo/header.webp" alt="header-logo" />
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-9">
+              <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Contacts</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <div class="line">
+                  <div class="line-1"></div>
+                  <div class="line-2"></div>
+                  <div class="line-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section Hero starts here -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="hero-content">
+              <h3>let's make your best trip ever</h3>
+              <p>
+                Plan and book your perfect trip with expert advice, travel tips,
+                destination information and inspiration from us.
+              </p>
+              <a href="#" class="btn btn-primary">discover now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section hero ends here -->
+    <!-- Form Submit -->
+    <div class="location-search">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="#" class="filter__form">
+              <div class="filter-item">
+                <h5>Where</h5>
+                <div class="filter-item-input">
+                  <input type="text" placeholder="Center Point, Loc...." />
+                  <!-- <i class="fa fa-map-marker"></i> -->
+                </div>
+              </div>
+              <div class="filter-item">
+                <h5>Date</h5>
+                <div class="filter-item-input">
+                  <input type="text" placeholder="09/03/2022" />
+                  <!-- <i class="fa fa-calendar"></i> -->
+                </div>
+              </div>
+              <div class="filter-item last-child">
+                <h5>Guests</h5>
+                <div class="filter-item-input">
+                  <input type="text" placeholder="05" />
+                  <!-- <i class="fa fa-users"></i> -->
+                </div>
+              </div>
+              <button type="submit">Search Plane</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Form Submit ends here -->
+
+    <!-- Section Special offers -->
+    <section class="special-offers">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="offers-title">
+              <h2>Special Offers</h2>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="offers-text">
+              <p>
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using, making it
+                look like readable English.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="offers">
+              <div class="offers-image">
+                <img src="/images/offers/1st.jpg" alt="" />
+              </div>
+              <div class="offer-heading">
+                <h4>
+                  <a href="#">Known mountain in the black hills of south</a>
+                </h4>
+                <p>
+                  <i class="fa fa-map-marker"></i> Lake Grove, New York
+                  <span>$120</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="offers">
+              <div class="offers-image">
+                <img src="/images/offers/1st.jpg" alt="" />
+              </div>
+              <div class="offer-heading">
+                <h4>
+                  <a href="#">Known mountain in the black hills of south</a>
+                </h4>
+                <p>
+                  <i class="fa fa-map-marker"></i> Lake Grove, New York
+                  <span class="price">$120</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="offers">
+              <div class="offers-image">
+                <img src="/images/offers/1st.jpg" alt="" />
+              </div>
+              <div class="offer-heading">
+                <h4>
+                  <a href="#">Known mountain in the black hills of south</a>
+                </h4>
+                <p>
+                  <i class="fa fa-map-marker"></i> Lake Grove, New York
+                  <span>$120</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Our benefits starts here -->
+    <section class="our-benefits">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="benefits-heading">
+              <h2>Our Benefits</h2>
+            </div>
+            <p>
+              The point of using Lorem Ipsum is that it has a more-or-less
+              normal distribution of letters.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="benefits-item">
+                  <h4>
+                    <img src="/images/benefits/1st.webp" alt="" />
+                    Personal Schedule
+                  </h4>
+                  <p>
+                    The point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, making it look like readable
+                    English.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="benefits-item">
+                  <h4>
+                    <img src="/images/benefits/2nd.webp" alt="" />
+                    Personal Schedule
+                  </h4>
+                  <p>
+                    The point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, making it look like readable
+                    English.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="benefits-item">
+                  <h4>
+                    <img src="/images/benefits/3rd.webp" alt="" />
+                    Personal Schedule
+                  </h4>
+                  <p>
+                    The point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, making it look like readable
+                    English.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="benefits-item">
+                  <h4>
+                    <img src="/images/benefits/4th.webp" alt="" />
+                    Personal Schedule
+                  </h4>
+                  <p>
+                    The point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, making it look like readable
+                    English.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="benefits-collection">
+                  <img src="/images/benefits-collections/1st.jpeg" alt="" />
+                </div>
+                <div class="benefits-collection">
+                  <img src="/images/benefits-collections/2nd.jpeg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="benefits-collection">
+                  <img src="/images/benefits-collections/3rd.jpg" alt="" />
+                </div>
+                <div class="benefits-collection">
+                  <img src="/images/benefits-collections/4th.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Our Benefits ends here -->
+
+    <!-- Section Featured Places starts here -->
+    <section class="featured-places">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="featured-heading">
+              <h2>Featured Places</h2>
+            </div>
+            <p>
+              The point of using Lorem Ipsum is that it has a more-or-less
+              normal distribution of letters.
+            </p>
+          </div>
+          <div class="col-lg-12">
+         
+        </div>
+      </div>
+    </section>
+    <!-- Section Featured Places ends here -->
+  
+    <!-- Section Destination starts here -->
+    <section class="destination">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="destination-heading">
+                        <h2>Destination Gallery</h2>
+                    </div>
+                    <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="slick-slider">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+  
+    <!-- OUR OWN JS -->
+  <script src="js/main.js"></script>
+
+  <!-- jQuery CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+
+  <!-- BOOTSTRAP 4 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Slick Slider JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.js" integrity="sha512-WlN87oHzYKO5YOmINf1+pSkbt4gm+lOro4fiSTCjII4ykJe/ycHKIaa9b2l9OMkbqEA4NxwTXAGFjSXgqEh19w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
